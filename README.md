@@ -4,9 +4,9 @@
 
 ## 介紹 (Introduction)
 
-使用HTML, CSS, React製成的圖片合成App，輸入姓名、生日、性別及上傳圖片後，便可生成一張鮭魚身分證。\
-Web app project built with HTML, CSS, React that synthesize id images.\
-After inputting name, birth date, sex and image, the app then generates a salmon id card.
+使用HTML, CSS, React製成的圖片合成App，輸入姓名、生日、性別、上傳圖片(選填)後，便可生成一張鮭魚身分證。\
+Web app built with HTML, CSS, React.\
+After inputting name, birth date, sex, and image (optional), the app will generate an id with the information given.
 
 ## 背景 (Background)
 
@@ -15,8 +15,8 @@ In March 2021, a chained sushi restaurant in Taiwan started a promotion as follo
 
 ## 畫面截圖 (Sample Screenshot)
 
-![app screenshot](https://raw.githubusercontent.com/miffycs/salmon/demo/demo_app.png)
-![sample id card](https://raw.githubusercontent.com/miffycs/salmon/demo/demo_id.png)
+![app screenshot](https://raw.githubusercontent.com/miffycs/salmon/master/demo/demo_app.png)
+![sample id card](https://raw.githubusercontent.com/miffycs/salmon/master/demo/demo_id.png)
 
 -----------------------------------------------------------------------------------------------------------
 
