@@ -1,6 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react'
 import "./SalmonIdGenerator.css";
 import ReactGA from 'react-ga';
+import pic_headshot from './assets/pic_headshot.jpeg';
+import pic_id_card from './assets/pic_id_card.png';
+
 
 const SalmonIdGenerator = () => {
     //initialize Google Analytics
@@ -42,11 +45,11 @@ const SalmonIdGenerator = () => {
     //make sure image loads at first render
     useEffect(() => {
         const cardImage = new Image();
-        cardImage.src = "https://i.imgur.com/QBlys1A.png";
+        cardImage.src = pic_id_card;
         cardImage.onload = () => setCardImage(cardImage);
 
         const head = new Image();
-        head.src = "https://i.imgur.com/Mdea5ym.jpg";
+        head.src = pic_headshot;
         head.onload = () => setHeadshot(head);        
     }, [])
 
@@ -132,7 +135,7 @@ const SalmonIdGenerator = () => {
         setName("");
         //reset headshot to default image(sushi)
         const headshot = new Image();
-        headshot.src = "https://i.imgur.com/Mdea5ym.jpg";
+        headshot.src = pic_headshot;
         headshot.onload = () => setHeadshot(headshot);  
         setHeadshot(); 
         
