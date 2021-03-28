@@ -1,7 +1,7 @@
 .GeneratorPage{
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     color: white;
 }
 
@@ -42,7 +42,7 @@
     border: 1px black;
 }
 
-.submitButton{   
+.submitButton{
     -webkit-appearance: none;
     background-color: white;
     font-size: 15px;
@@ -73,7 +73,7 @@
 }
 
 .idCard_default{
-    width: 588px; 
+    width: 588px;
     height: 364px;
     margin-bottom: 40px;
 }
@@ -119,13 +119,13 @@
 
 @media only screen and (max-width: 800px){
     .idCard_default{
-        width: 500px; 
+        width: 500px;
         height: 310px;
         margin-bottom: 35px;
     }
 
     .idCard{
-        width: 500px; 
+        width: 500px;
         height: 310px;
         margin-bottom: 60px;
     }
@@ -135,15 +135,15 @@
     }
 }
 
-@media only screen and (max-width: 600px){    
+@media only screen and (max-width: 600px){
     .idCard_default{
-        width: 412px; 
+        width: 412px;
         height: 255px;
         margin-bottom: 30px;
     }
 
     .idCard{
-        width: 412px; 
+        width: 412px;
         height: 255px;
         margin-bottom: 55px;
     }
@@ -170,13 +170,13 @@
 
 @media only screen and (max-width: 475px){
     .idCard_default{
-        width: 353px; 
+        width: 353px;
         height: 219px;
         margin-bottom: 25px;
     }
-    
+
     .idCard{
-        width: 353px; 
+        width: 353px;
         height: 219px;
         margin-bottom: 50px;
     }
@@ -217,12 +217,12 @@
 
 @media only screen and (max-width: 375px){
     .idCard_default{
-        width: 294px; 
+        width: 294px;
         height: 182px;
     }
-    
+
     .idCard{
-        width: 294px; 
+        width: 294px;
         height: 182px;
         margin-bottom: 45px;
     }
@@ -252,7 +252,7 @@
 
 @media only screen and (max-width: 300px){
     .idCard_default, .idCard{
-        width: 236px; 
+        width: 236px;
         height: 146px;
     }
 
