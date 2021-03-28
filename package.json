@@ -1,6 +1,7 @@
 {
-  "name": "salmon-id-meme-generator",
+  "name": "salmon",
   "version": "0.1.0",
+  "homepage": "https://miffychen.tech/salmon/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
